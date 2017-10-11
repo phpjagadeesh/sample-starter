@@ -8,8 +8,10 @@ The syntax parser is translate human readable code to computer instruction throu
 ### Lexical Enviorment
 The Lexical enviorment means where the code is actually sitting
 
-```function hello() {
+```javascript
+function hello() {
     var a = 0;
-}```
+}
+```
 
 Here a is lexically inside the function 'hello'
