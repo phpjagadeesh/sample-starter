@@ -14,4 +14,4 @@ function hello() {
 }
 ```
 
-Here a is lexically inside the function 'hello'
+Here variable *a* is lexically inside the function *hello*
