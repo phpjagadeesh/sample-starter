@@ -53,4 +53,18 @@ console.log(window.a);
 In the above code both 'a' and 'window.a' will work because 'a' is attached to global object. if the code running inside a function then there is 'outer enviroment'.
 
 
+## Hoisting
+Before move to hoisting, when code statrted to exicute then two phase will face
+1. Creation part
+2. Exicution part
 
+When the cretation part all variables and functions are place inside memory space. In the exicution part all these code will invoke
+
+```javascript
+a('jagadeesh');
+
+function a(name) {
+  console.log('my name is' + name);    
+}
+```
+The function a() is called before declarion but it will work fine reason is, In the creation phase all function will placed in memory space first.
