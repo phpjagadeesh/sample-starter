@@ -37,3 +37,20 @@ address: {
 }
 
 ``` 
+
+## Global object 
+When execution statrted the javascript engine automatically create two things
+1. Global Object
+2. Special variable 'this' 
+
+There is always a global object. Lexically your code not sitting inside a function then that code 'global'
+
+```javascript
+var a = 'hello javascript';
+console.log(a);
+console.log(window.a);
+```
+In the above code both 'a' and 'window.a' will work because 'a' is attached to global object. if the code running inside a function then there is 'outer enviroment'.
+
+
+
