@@ -68,3 +68,7 @@ function a(name) {
 }
 ```
 The function a() is called before declarion but it will work fine reason is, In the creation phase all function will placed in memory space first.
+
+
+## Javascript is Single thread and synchronise execution
+Yes. Javascript is single thread and synchronise execution.
